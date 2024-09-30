@@ -6,5 +6,5 @@ body header{
 }
 
 header main section{
-    background-image: "C:\Users\zezos\OneDrive\سطح المكتب\alx_html_css\CSS Advanced\Object.png";
+    background-image: url("C:\Users\zezos\OneDrive\سطح المكتب\alx_html_css\CSS Advanced\Object.png");
 }
