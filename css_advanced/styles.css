@@ -1,4 +1,4 @@
-body header{ 
+.header{ 
     display:grid;
     width: 1103.41em;
     height: 29.46px;
@@ -6,6 +6,6 @@ body header{
     left:171.59px;
 }
 
-header main section{
+.header .main .section{
     background-image: url("C:\Users\zezos\OneDrive\سطح المكتب\alx_html_css\CSS Advanced\Object.png");
 }
