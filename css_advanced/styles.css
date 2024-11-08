@@ -1,11 +1,100 @@
-.header{ 
-    display:grid;
-    width: 1103.41em;
-    height: 29.46px;
-    top:35.02px;
-    left:171.59px;
+@font-face{
+    font-family: 'Spin Cycle OT', sans-serif;
+    src: url('./assets/Spin-Cycle-OT/spincycle_3d_ot.otf') format('woff2'),
+         url('./assets/Spin-Cycle-OT/spincycle_ot.otf') format('woff'),
+         url('./assets/fonts/spin-cycle-ot.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.header .main .section{
-    background-image: url("C:\Users\zezos\OneDrive\سطح المكتب\alx_html_css\CSS Advanced\Object.png");
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Source Sans Pro', sans-serif, 'spin cycle ot';
+    width: 100%;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo-container{ 
+    width: 167.02px;
+    height: 29.46px;
+    top: 35.02px;
+    left: 171.59px;
+    gap: 0px;
+    opacity: 0px;    
+
+}
+
+.nav-links{
+    display: flex;
+    width: 234px;
+    height: 15px;
+    top: 37px;
+    left: 1041px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: url();
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.08px;
+    text-align: left;
+    list-style: none;
+
+
+}
+nav ul span {
+    margin: 0 10px; /* Adds space around the span */
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.box {
+    background: url(assets/Object.png);
+    width: 1448.15px;
+    height: 1055px;
+    top: -66px;
+    left: -4.08px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+}
+
+.content-container{
+    
+}
+
+h1 {
+    width: 684px;
+    height: 151px;
+    top: 220px;
+    left: 377px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: ();
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 150.84px;
+    text-align: center;
+
+
+}
+.tagline{
+    text-align: center;
 }
